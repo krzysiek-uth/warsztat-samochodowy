@@ -79,25 +79,6 @@ npm start
 
 Aplikacja zostanie uruchomiona pod adresem http://localhost:3000 (frontend) i http://localhost:5000 (backend).
 
-## Struktura projektu
-
-
-warsztat-samochodowy/
-├── src/                    Frontend React
-│   ├── components/         Komponenty wielokrotnego użytku
-│   ├── pages/              Strony aplikacji
-│   ├── context/            Zarządzanie stanem globalnym
-│   ├── services/           Komunikacja z API
-│   └── styles/             Style CSS
-├── server/                 Backend Node.js
-│   ├── config/             Konfiguracja bazy danych
-│   ├── controllers/        Logika biznesowa
-│   ├── middleware/         Middleware (auth, upload)
-│   ├── routes/             Endpointy API
-│   └── services/           Usługi pomocnicze
-├── database/               Baza danych SQLite
-└── uploads/                Przesłane zdjęcia
-
 
 ## API
 
